@@ -18,7 +18,7 @@ jobs:
         python-version: '3.x'
     - name: Install dependencies
       run: |
-        python -m pip3 install --upgrade pip3
+        python -m pip3 install --upgrade pip
         pip3 install -r requirements.txt
         python -m nltk.downloader punkt
     - name: Build Docker Image
