@@ -1,0 +1,740 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello!",
+        "Hi there!",
+        "Greetings!"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi! How may I help you?",
+        "Greetings! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Take care!"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later. Take care!",
+        "Take care! Goodbye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks a lot",
+        "I appreciate your help"
+      ],
+      "responses": [
+        "You're welcome! I'm here to help.",
+        "You're welcome! Let me know if there's anything else I can assist you with.",
+        "No problem! Feel free to ask if you have any more questions."
+      ]
+    },
+    {
+      "tag": "places_to_visit",
+      "patterns": [
+        "What are some must-visit places in Morocco?",
+        "Can you recommend any popular attractions in Morocco?",
+        "I want to explore the best sights in Morocco."
+      ],
+      "responses": [
+        "Morocco is known for its stunning attractions. Some must-visit places include the bustling markets of Marrakech, the ancient Roman ruins of Volubilis, the scenic Atlas Mountains, and the beautiful blue city of Chefchaouen."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What are some traditional Moroccan dishes?",
+        "Can you recommend any local delicacies in Morocco?",
+        "I want to try authentic Moroccan cuisine."
+      ],
+      "responses": [
+        "Moroccan cuisine offers a variety of delicious dishes. Some traditional options include tagine, couscous, pastilla, and harira soup. You should also try Moroccan mint tea, which is a popular beverage in the country."
+      ]
+    },
+    {
+      "tag": "currency",
+      "patterns": [
+        "What is the currency used in Morocco?",
+        "How can I exchange currency in Morocco?",
+        "Are credit cards widely accepted in Morocco?"
+      ],
+      "responses": [
+        "The currency used in Morocco is the Moroccan dirham (MAD). You can exchange currency at banks, exchange offices, and some hotels. Credit cards are generally accepted in larger establishments, but it's advisable to carry cash for smaller shops and markets."
+      ]
+    },
+    {
+      "tag": "language",
+      "patterns": [
+        "What language is spoken in Morocco?",
+        "Do people in Morocco speak English?",
+        "How can I greet someone in Moroccan Arabic?"
+      ],
+      "responses": [
+        "The official language of Morocco is Arabic. However, many Moroccans also speak French, especially in urban areas and tourist destinations. English is spoken in some hotels, restaurants, and tourist sites. To greet someone in Moroccan Arabic, you can say 'Salam alaikum' (Peace be upon you)."
+      ]
+    },
+    {
+      "tag": "safety",
+      "patterns": [
+        "Is Morocco a safe country for tourists?",
+        "Are there any safety precautions I should take in Morocco?",
+        "What is the crime rate like in Morocco?"
+      ],
+      "responses": [
+        "Morocco is generally considered safe for tourists. However, it's always important to take precautions like being aware of your surroundings, avoiding isolated areas at night, and keeping an eye on your belongings. It's also recommended to follow any travel advisories provided by your country's embassy or consulate."
+      ]
+    },
+    {
+      "tag": "culture",
+      "patterns": [
+        "Tell me about the culture of Morocco.",
+        "What are some cultural traditions in Morocco?",
+        "Are there any festivals celebrated in Morocco?"
+      ],
+      "responses": [
+        "Morocco has a rich and diverse culture influenced by Arab, Berber, and French traditions. Some cultural highlights include traditional music, dance, and art, as well as the vibrant souks (markets) and local craftsmanship. Popular festivals in Morocco include the Fes Festival of World Sacred Music, the Marrakech International Film Festival, and the Mawazine World Rhythms Festival."
+      ]
+    },
+    {
+      "tag": "restaurants",
+      "patterns": [
+        "Can you recommend any good restaurants in Morocco?",
+        "What are some popular local eateries?",
+        "I'm looking for a restaurant with vegetarian options. Any suggestions?"
+      ],
+      "responses": [
+        "Sure! If you're in the mood for Italian cuisine, I recommend trying 'La Trattoria' or 'Pasta Paradise.' Both offer a variety of delicious pasta dishes. For a taste of local flavors, 'Spice Delight' and 'Food Fusion' are excellent choices. They specialize in fusion cuisine with a unique twist. If you're vegetarian, 'Green Garden' and 'Veggie Delight' are two restaurants that offer a wide range of vegetarian and vegan dishes."
+      ]
+    },
+    {
+      "tag": "hotels",
+      "patterns": [
+        "Can you suggest some good hotels in Morocco?",
+        "What are the best accommodations in Morocco?",
+        "I'm looking for a hotel near the city center. Any recommendations?"
+      ],
+      "responses": [
+        "Morocco offers a wide range of accommodations to suit various budgets and preferences. Some popular hotels in Morocco include 'Luxury Resort & Spa' located on the beachfront, 'City Center Hotel' in the heart of the city, and 'Desert Oasis Lodge' for a unique desert experience. It's advisable to book in advance, especially during peak tourist seasons."
+      ]
+    },
+    {
+      "tag": "beaches",
+      "patterns": [
+        "Are there any beautiful beaches in Morocco?",
+        "Can you recommend a beach destination in Morocco?",
+        "I'm looking for a beach to relax and unwind."
+      ],
+      "responses": [
+        "Morocco boasts stunning coastal areas with beautiful beaches. Some popular beach destinations include Agadir, Essaouira, and Tangier. These beaches offer a perfect blend of relaxation, water sports, and scenic views."
+      ]
+    },
+    {
+      "tag": "historical_sites",
+      "patterns": [
+        "What are some historical sites to visit in Morocco?",
+        "Can you recommend any ancient ruins or monuments?",
+        "I'm interested in exploring Morocco's rich history."
+      ],
+      "responses": [
+        "Morocco has a fascinating history, and there are several historical sites worth visiting. Some notable ones include the ancient Roman ruins of Volubilis, the fortified city of Ait Ben Haddou, the historical medina of Fes, and the stunning Kasbah of the Udayas in Rabat."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Are there any upcoming events in Morocco?",
+        "What festivals or events take place in Morocco?",
+        "I'm looking for some entertainment during my visit."
+      ],
+      "responses": [
+        "Morocco hosts various festivals and events throughout the year. Some notable ones include the Marrakech International Film Festival, the Gnaoua World Music Festival in Essaouira, and the Rose Festival in the Dades Valley. It's always a good idea to check the event calendar for the specific dates of upcoming events."
+      ]
+    },
+    {
+      "tag": "attractions",
+      "patterns": [
+        "What are the top attractions in Morocco?",
+        "Can you suggest some must-see places in Morocco?",
+        "I want to explore the famous landmarks of Morocco."
+      ],
+      "responses": [
+        "Morocco is brimming with fascinating attractions. Some must-see places include the vibrant Jardin Majorelle in Marrakech, the Hassan II Mosque in Casablanca, the beautiful Majorelle Garden in Marrakech, and the charming blue streets of Chefchaouen."
+      ]
+    },
+    {
+      "tag": "transportation",
+      "patterns": [
+        "What are the transportation options in Morocco?",
+        "How can I get around in Morocco?",
+        "Are there reliable public transportation services?"
+      ],
+      "responses": [
+        "In Morocco, you can get around using various transportation options. These include taxis, buses, trains, and domestic flights. Public transportation services like buses and trains are available and relatively reliable for intercity travel. Taxis are commonly used for shorter distances within cities."
+      ]
+    },
+    {
+      "tag": "shopping",
+      "patterns": [
+        "Where can I go shopping in Morocco?",
+        "Are there any famous markets or souks in Morocco?",
+        "I want to buy some traditional Moroccan souvenirs."
+      ],
+      "responses": [
+        "Morocco is renowned for its bustling markets and souks. Some popular shopping destinations include the Medina of Marrakech, the Fes Medina, and the Souk Semmarine in Tangier. Here, you'll find a wide range of traditional crafts, carpets, ceramics, spices, and leather goods."
+      ]
+    },
+    {
+      "tag": "local_festivals",
+      "patterns": [
+        "Tell me about local festivals in Morocco.",
+        "Are there any traditional festivals celebrated in Morocco?",
+        "I want to experience the local culture through festivals."
+      ],
+      "responses": [
+        "Morocco celebrates several traditional festivals throughout the year. Some popular ones include the Festival of Roses in Kelaat M'gouna, the Imilchil Marriage Festival, and the Tan-Tan Moussem. These festivals showcase the rich cultural heritage of Morocco, including music, dance, and local traditions."
+      ]
+    },
+    {
+      "tag": "local_art",
+      "patterns": [
+        "What is the local art scene like in Morocco?",
+        "Are there any famous artists or art galleries in Morocco?",
+        "I'm interested in exploring Moroccan art and craftsmanship."
+      ],
+      "responses": [
+        "Morocco has a vibrant art scene with a rich history of craftsmanship. You can explore traditional art forms like pottery, ceramics, carpet weaving, and metalwork. The cities of Marrakech and Fes are known for their art galleries, where you can admire and purchase works by local artists."
+      ]
+    },
+    {
+      "tag": "local_wildlife",
+      "patterns": [
+        "What are some unique wildlife species in Morocco?",
+        "Are there any national parks or nature reserves in Morocco?",
+        "I want to explore the local wildlife during my visit."
+      ],
+      "responses": [
+        "Morocco is home to a diverse range of wildlife species. The Sahara Desert is known for its desert-adapted animals like camels and fennec foxes. In the Atlas Mountains, you may spot Barbary macaques and various bird species. The Souss Massa National Park is a haven for birdwatchers, and the Dades Valley offers stunning natural landscapes."
+      ]
+    },
+    {
+      "tag": "local_sports",
+      "patterns": [
+        "What are some popular sports in Morocco?",
+        "Are there any local sports events or activities?",
+        "I'm interested in experiencing the local sports culture."
+      ],
+      "responses": [
+        "Football (soccer) is the most popular sport in Morocco. You can catch local matches and experience the excitement firsthand. Additionally, hiking and trekking in the Atlas Mountains, surfing in coastal areas like Taghazout, and sandboarding in the Sahara Desert are popular outdoor activities enjoyed by locals and tourists alike."
+      ]
+    },
+    {
+      "tag": "local_traditions",
+      "patterns": [
+        "What are some traditional customs and traditions in Morocco?",
+        "Can you tell me about Moroccan wedding traditions?",
+        "I want to learn about the local customs and etiquette."
+      ],
+      "responses": [
+        "Morocco has a rich cultural heritage with unique customs and traditions. Traditional Moroccan weddings are vibrant and festive, often lasting several days with music, dance, and traditional attire. Moroccan hospitality is also renowned, with tea ceremonies and the tradition of serving dates and milk to guests. Respect for elders and modesty in dress are valued customs."
+      ]
+    },
+    {
+      "tag": "local_cuisine",
+      "patterns": [
+        "What are some traditional Moroccan dishes?",
+        "Can you recommend any local delicacies in Morocco?",
+        "I want to try authentic Moroccan cuisine."
+      ],
+      "responses": [
+        "Moroccan cuisine offers a variety of delicious dishes. Some traditional options include tagine, couscous, pastilla, and harira soup.You should also try Moroccan mint tea, which is a popular beverage in the country."
+      ]
+    },
+    {
+      "tag": "beaches",
+      "patterns": [
+      "Can you recommend some beautiful beaches for travel?",
+      "Which destinations are known for their stunning beaches?",
+      "Tell me about the best beach resorts in the world."
+      ],
+      "responses": [
+      "There are numerous breathtaking beaches around the world. Some popular beach destinations include Maldives, Bora Bora, Seychelles, Bali, Phuket, Cancun, Miami, Ibiza, and the Greek Islands. These places offer pristine white sands, crystal-clear waters, and stunning natural beauty, making them perfect for beach lovers and sun-seekers. Additionally, many beach resorts in these locations provide luxurious accommodations and a range of water sports and recreational activities."
+      ]
+      },
+      {
+      "tag": "adventure",
+      "patterns": [
+      "What are some adventurous activities to do while traveling?",
+      "Which destinations offer thrilling outdoor experiences?",
+      "Tell me about extreme sports and adventure travel."
+      ],
+      "responses": [
+      "Adventure travel enthusiasts can find plenty of exhilarating activities worldwide. Some popular adventure destinations include New Zealand, Costa Rica, Nepal, Alaska, Iceland, and South Africa. Activities like hiking, mountain climbing, bungee jumping, white-water rafting, zip-lining, and safari tours are available in these locations. Additionally, extreme sports such as skydiving, paragliding, scuba diving, and snowboarding can be enjoyed in various parts of the world for an adrenaline-pumping experience."
+      ]
+      },
+      {
+      "tag": "food",
+      "patterns": [
+      "What are some must-try local dishes while traveling?",
+      "Which countries are known for their delicious cuisine?",
+      "Tell me about famous food festivals around the world."
+      ],
+      "responses": [
+      "Exploring the local cuisine is a delightful part of traveling. Some countries renowned for their delicious food include Italy, Thailand, Japan, Mexico, India, France, Spain, and Greece. Each destination offers a unique culinary experience, with traditional dishes, street food, and gourmet specialties. Food festivals like the Taste of Chicago, Oktoberfest in Germany, La Tomatina in Spain, and the Pizzafest in Naples are celebrated worldwide, showcasing a wide range of mouth-watering delicacies."
+      ]
+      },
+      {
+      "tag": "nature",
+      "patterns": [
+      "Which countries have stunning natural landscapes?",
+      "Tell me about the best national parks for nature lovers.",
+      "What are some famous natural wonders to visit?"
+      ],
+      "responses": [
+      "Many countries boast incredible natural landscapes and breathtaking wonders. Some notable destinations for nature lovers include Canada (Rocky Mountains), Iceland (Northern Lights), Australia (Great Barrier Reef), Norway (Fjords), Brazil (Amazon Rainforest), Kenya (Maasai Mara), and the United States (Yellowstone National Park). These places offer opportunities for hiking, wildlife spotting, nature photography, and experiencing the beauty of untouched wilderness. Famous natural wonders like the Grand Canyon, Victoria Falls, Mount Everest, and the Great Wall of China are also worth visiting."
+      ]
+      },
+      {
+      "tag": "cruises",
+      "patterns": [
+      "What are some popular cruise destinations?",
+      "Tell me about luxury cruise experiences.",
+      "Are there any themed cruises available?"
+      ],
+      "responses": [
+      "Cruises provide a fantastic way to explore various destinations while enjoying onboard luxury and entertainment. Popular cruise destinations include the Caribbean, Mediterranean, Alaska, Northern Europe, South Pacific, and the Galapagos Islands. Luxury cruise experiences offer state-of-the-art amenities, gourmet dining, spa treatments, and personalized services. Themed cruises cater to specific interests such as music, art, wellness, and culinary themes, providing a unique and immersive experience for passengers."
+      ]
+      },
+      {
+        "tag": "wildlife",
+        "patterns": [
+        "Which countries are known for their diverse wildlife?",
+        "Tell me about the best destinations for wildlife enthusiasts.",
+        "What are some popular wildlife safaris?"
+        ],
+        "responses": [
+        "Several countries are renowned for their diverse wildlife and offer incredible experiences for wildlife enthusiasts. Some notable destinations include Kenya, Tanzania, South Africa, Costa Rica, Brazil, India, Australia, and Galapagos Islands. These places are known for their national parks, game reserves, and rich biodiversity, allowing visitors to witness iconic animals such as lions, elephants, giraffes, tigers, jaguars, kangaroos, and marine life. Popular wildlife safaris include the Maasai Mara Safari in Kenya, Serengeti National Park in Tanzania, Kruger National Park in South Africa, and the Amazon Rainforest in Brazil."
+        ]
+        },
+        {
+        "tag": "historical_sites",
+        "patterns": [
+        "Tell me about famous historical sites around the world.",
+        "Which countries have rich historical heritage?",
+        "What are some must-visit historical landmarks?"
+        ],
+        "responses": [
+        "The world is filled with remarkable historical sites that offer insights into the past. Some renowned destinations with rich historical heritage include Egypt (Pyramids of Giza), Italy (Colosseum and Pompeii), Greece (Acropolis of Athens), China (Great Wall of China and Terracotta Army), Peru (Machu Picchu), India (Taj Mahal and Jaipur's palaces), Mexico (Chichen Itza), and Cambodia (Angkor Wat). These sites showcase impressive architectural feats, ancient civilizations, and significant cultural and historical value, attracting millions of visitors each year."
+        ]
+        },
+        {
+        "tag": "cultural_events",
+        "patterns": [
+        "Tell me about cultural events and festivals around the world.",
+        "Which countries celebrate vibrant cultural festivals?",
+        "What are some famous cultural events?"
+        ],
+        "responses": [
+        "Cultural events and festivals provide a glimpse into the vibrant traditions and celebrations of different countries. Some renowned cultural events include Rio Carnival in Brazil, Holi Festival in India, Chinese New Year, Oktoberfest in Germany, Mardi Gras in New Orleans, Songkran Water Festival in Thailand, Carnival of Venice in Italy, and Day of the Dead in Mexico. These events feature colorful parades, music, dance, traditional costumes, and culinary delights, creating a lively and immersive cultural experience for locals and tourists alike."
+        ]
+        },
+        {
+        "tag": "outdoor_activities",
+        "patterns": [
+        "What are some popular outdoor activities for adventure seekers?",
+        "Tell me about hiking and camping destinations.",
+        "Which countries offer opportunities for outdoor adventure?"
+        ],
+        "responses": [
+        "Adventure seekers can find a wide range of outdoor activities and thrilling destinations worldwide. Some popular activities include hiking, camping, rock climbing, mountain biking, kayaking, and skiing. Destinations such as Switzerland, New Zealand, Norway, Canada, Patagonia, Colorado, and Scotland offer stunning landscapes and a variety of outdoor adventure opportunities. From hiking the Swiss Alps to camping in the Canadian Rockies or skiing in the Norwegian fjords, these destinations provide exhilarating experiences in the great outdoors."
+        ]
+        },
+        {
+        "tag": "family_travel",
+        "patterns": [
+        "Tell me about family-friendly travel destinations.",
+        "What are some popular destinations for family vacations?",
+        "Are there any amusement parks suitable for families?"
+        ],
+        "responses": [
+        "Family-friendly destinations offer a range of activities and attractions suitable for travelers of all ages. Some popular destinations for family vacations include Orlando (with its many theme parks), Disneyland Resort in California, Tokyo Disneyland, Universal Studios, Legoland, and various beach destinations like Hawaii, Cancun, and the Gold Coast. These places provide entertainment, interactive experiences, water parks, and accommodations catering to families, ensuring a memorable and enjoyable trip for everyone."
+        ]
+        },
+        {
+          "tag": "scenic_drives",
+          "patterns": [
+          "Tell me about scenic drives and road trips.",
+          "Which countries offer picturesque road trip routes?",
+          "What are some famous scenic drives?"
+          ],
+          "responses": [
+          "Scenic drives and road trips allow travelers to witness stunning landscapes and picturesque views. Some countries known for their scenic road trip routes include the United States (Pacific Coast Highway, Route 66), Australia (Great Ocean Road), Iceland (Ring Road), Scotland (North Coast 500), New Zealand (Milford Road), Canada (Icefields Parkway), and Norway (Atlantic Road). These routes showcase breathtaking coastlines, mountains, national parks, and charming countryside, providing an unforgettable journey for road trip enthusiasts."
+          ]
+          },
+          {
+          "tag": "cultural_heritage",
+          "patterns": [
+          "Tell me about the cultural heritage of different countries.",
+          "Which countries have a rich cultural heritage?",
+          "What are some UNESCO World Heritage Sites?"
+          ],
+          "responses": [
+          "Many countries have a rich cultural heritage that is preserved and recognized by UNESCO. Some destinations known for their cultural heritage include Italy (Rome, Florence, Venice), Greece (Athens, Delphi), Egypt (Giza Necropolis, Luxor), India (Jaipur, Agra), China (Beijing, Xi'an), Mexico (Chichen Itza, Teotihuacan), Peru (Cusco, Sacred Valley), and Cambodia (Angkor Archaeological Park). These places are home to ancient ruins, archaeological sites, historic cities, and cultural traditions that offer a glimpse into the past and the development of civilizations."
+          ]
+          },
+          {
+          "tag": "luxury_travel",
+          "patterns": [
+          "Tell me about luxury travel experiences and destinations.",
+          "Which countries offer luxurious accommodations and experiences?",
+          "What are some exclusive travel experiences?"
+          ],
+          "responses": [
+          "Luxury travel experiences provide unparalleled comfort, lavish amenities, and exquisite services. Some countries known for offering luxurious accommodations and experiences include the United Arab Emirates (Dubai, Abu Dhabi), Maldives (private resorts), France (French Riviera, Paris), Italy (Amalfi Coast, Tuscany), Switzerland (Zermatt, St. Moritz), Japan (Tokyo, Kyoto), and the Caribbean (St. Barts, Barbados). Exclusive experiences may include private yacht charters, helicopter tours, Michelin-starred dining, spa retreats, and personalized concierge services, ensuring a truly indulgent and memorable journey."
+          ]
+          },
+          {
+          "tag": "wellness_travel",
+          "patterns": [
+          "Tell me about wellness travel and rejuvenation destinations.",
+          "Which countries are known for wellness retreats and spas?",
+          "What are some popular wellness activities?"
+          ],
+          "responses": [
+          "Wellness travel focuses on rejuvenation, relaxation, and improving overall well-being. Some countries known for wellness retreats and spas include Thailand (Phuket, Koh Samui), Bali (Ubud, Seminyak), India (Rishikesh, Kerala), Costa Rica (Nosara, Arenal), Switzerland (Bad Ragaz, Gstaad), and the Maldives (wellness resorts). Popular wellness activities include yoga and meditation retreats, spa treatments, detox programs, healthy cuisine, mindfulness practices, and nature walks, providing a holistic approach to travel and self-care."
+          ]
+          },
+          {
+          "tag": "sustainable_travel",
+          "patterns": [
+          "Tell me about sustainable travel and eco-friendly destinations.",
+          "Which countries promote sustainable tourism?",
+          "What are some eco-friendly travel practices?"
+          ],
+          "responses": [
+          "Sustainable travel focuses on minimizing the environmental impact and supporting local communities. Several countries promote sustainable tourism practices, including Costa Rica, Norway, New Zealand, Bhutan, Sweden, Iceland, and Slovenia. These destinations prioritize eco-friendly initiatives, conservation efforts, renewable energy, and responsible tourism. Eco-friendly travel practices include choosing eco-lodges or accommodations with green certifications, reducing plastic waste, supporting local businesses and communities, respecting wildlife and natural habitats, and participating in eco-tours and volunteering programs that contribute to environmental conservation."
+          ]
+          },
+          {
+            "tag": "morocco",
+            "patterns": [
+              "Tell me about Morocco.",
+              "What are some popular attractions in Morocco?",
+              "I'm interested in visiting Morocco. Can you provide some information?"
+            ],
+            "responses": [
+              "Morocco is a fascinating country located in North Africa. It is known for its vibrant culture, rich history, and diverse landscapes. Some popular attractions in Morocco include the bustling city of Marrakech with its vibrant souks and historic medina, the blue-washed town of Chefchaouen, the Sahara Desert with its mesmerizing sand dunes, the ancient Roman ruins of Volubilis, and the coastal city of Essaouira. Moroccan cuisine, such as tagine and couscous, is renowned for its flavorful spices. Don't forget to explore the traditional riads, beautiful mosques, and experience the warm hospitality of the Moroccan people."
+            ]
+          },
+          {
+            "tag": "moroccan_culture",
+            "patterns": [
+              "What is the culture of Morocco like?",
+              "Tell me about the traditional customs and practices in Morocco.",
+              "What are some unique aspects of Moroccan culture?"
+            ],
+            "responses": [
+              "Moroccan culture is a blend of Arab, Berber, and French influences. It is known for its vibrant traditions, warm hospitality, and artistic expressions. Traditional music, such as Gnawa and Andalusian music, is an integral part of Moroccan culture. The country is also famous for its intricate handicrafts, including carpets, pottery, and metalwork. Moroccan cuisine is flavorful and diverse, with dishes like couscous, tagine, and mint tea being popular. Moroccan festivals, such as Eid al-Fitr, Mawlid al-Nabi, and the Festival of Roses, showcase the cultural richness and religious traditions of the country. Hospitality is highly valued in Moroccan culture, and guests are often welcomed with open arms and served traditional Moroccan mint tea."
+            ]
+          },
+          
+            {
+              "tag": "morocco_travel_tips",
+              "patterns": [
+                "Can you provide some travel tips for visiting Morocco?",
+                "What should I know before traveling to Morocco?"
+              ],
+              "responses": [
+                "Sure! Here are some travel tips for visiting Morocco: research and respect local customs and traditions, dress modestly, try Moroccan cuisine, haggle at markets, stay hydrated, be cautious of street vendors, use reputable transportation options, explore both cities and rural areas, visit the Sahara Desert for a unique experience, and enjoy the vibrant cultural attractions Morocco has to offer."
+              ]
+            },
+            {
+              "tag": "morocco_landmarks",
+              "patterns": [
+                "Tell me about famous landmarks in Morocco.",
+                "What are some must-visit places in Morocco?"
+              ],
+              "responses": [
+                "Morocco is home to several famous landmarks, including the ancient city of Marrakech with its historic medina and Jardin Majorelle, the Hassan II Mosque in Casablanca, the blue-washed town of Chefchaouen, the Sahara Desert, the Atlas Mountains, the coastal city of Essaouira, the ruins of Volubilis, and the imperial cities of Fes, Rabat, and Meknes."
+              ]
+            },
+            {
+              "tag": "morocco_beaches",
+              "patterns": [
+                "Are there any beautiful beaches in Morocco?",
+                "Tell me about the beach destinations in Morocco."
+              ],
+              "responses": [
+                "Yes, Morocco has stunning beaches along its coastline. Some popular beach destinations include Agadir, Essaouira, Tangier, Dakhla, and Saidia. These beaches offer picturesque views, golden sands, and opportunities for swimming, sunbathing, and water sports."
+              ]
+            },
+            {
+              "tag": "moroccan_cuisine",
+              "patterns": [
+                "What is Moroccan cuisine like?",
+                "Tell me about traditional Moroccan dishes."
+              ],
+              "responses": [
+                "Moroccan cuisine is flavorful and diverse. It is known for dishes such as tagine (slow-cooked stews), couscous, harira (a hearty soup), pastilla (a savory pastry), mint tea, and various grilled meats. Moroccan food combines aromatic spices like cumin, coriander, and saffron with fresh ingredients, creating a unique culinary experience."
+              ]
+            },
+            {
+              "tag": "moroccan_architecture",
+              "patterns": [
+                "Tell me about the architecture in Morocco.",
+                "What are some notable architectural styles in Morocco?"
+              ],
+              "responses": [
+                "Moroccan architecture is a blend of Islamic, Arab, and Berber influences. The country is known for its beautiful riads (traditional courtyard houses) with intricately designed courtyards and mosaic tiles. The architecture also features decorative elements such as ornate doorways, geometric patterns, and zellige tilework. Notable examples include the Koutoubia Mosque in Marrakech, the Royal Palace in Fes, and the Kasbahs (fortified citadels) in cities like Ait Ben Haddou."
+              ]
+            },
+            {
+              "tag": "moroccan_traditions",
+              "patterns": [
+                "What are some traditional customs and practices in Morocco?",
+                "Tell me about Moroccan cultural traditions."
+              ],
+              "responses": [
+                "Morocco has rich cultural traditions that are deeply rooted in Islamic and Berber heritage. Traditional practices include hospitality towards guests, the celebration of Islamic holidays like Eid al-Fitr and Ramadan, henna tattoos, traditional music performances, and the art of Moroccan handicrafts such as carpet weaving and pottery making. Moroccan weddings and festivals also showcase the country's vibrant traditions and communal celebrations."
+              ]
+            },
+            {
+              "tag": "morocco_souks",
+              "patterns": [
+                "What are souks in Morocco?",
+                "Tell me about the traditional markets in Morocco."
+              ],
+              "responses": [
+                "Souks are traditional markets found in Moroccan cities and towns. They are vibrant and bustling with various stalls selling a wide range of goods, including spices, textiles, leather goods, ceramics, jewelry, and traditional crafts. Exploring the souks is a popular activity for visitors, offering a unique shopping experience and the opportunity to interact with local vendors, bargain for prices, and discover Moroccan craftsmanship."
+              ]
+            },
+            {
+              "tag": "moroccan_festivals",
+              "patterns": [
+                "Are there any festivals celebrated in Morocco?",
+                "Tell me about the cultural festivals in Morocco."
+              ],
+              "responses": [
+                "Morocco celebrates several cultural and religious festivals throughout the year. Some notable festivals include the Fes Festival of World Sacred Music, the Marrakech International Film Festival, the Mawazine World Rhythms Festival, the Rose Festival in Kelaat M'gouna, and the Imilchil Marriage Festival. These festivals showcase traditional music, dance performances, cultural exhibitions, and provide a vibrant glimpse into Moroccan traditions and celebrations."
+              ]
+            },
+            {
+              "tag": "moroccan_hiking",
+              "patterns": [
+                "Are there good hiking spots in Morocco?",
+                "Tell me about hiking opportunities in Morocco."
+              ],
+              "responses": [
+                "Morocco offers excellent hiking opportunities, especially in the Atlas Mountains. Popular hiking destinations include Mount Toubkal, the highest peak in North Africa, the Tassa Ouirgane Valley, the Ourika Valley, and the Todra Gorge. These areas provide stunning mountain landscapes, picturesque valleys, and the chance to explore Berber villages and their traditional way of life."
+              ]
+            },
+            {
+              "tag": "moroccan_history",
+              "patterns": [
+                "What is the history of Morocco?",
+                "Tell me about the historical significance of Morocco."
+              ],
+              "responses": [
+                "Morocco has a rich and diverse history that dates back thousands of years. It has been influenced by various civilizations, including the Berbers, Phoenicians, Romans, Arabs, and French. The country was once home to thriving ancient cities, such as Volubilis and Tingis (now Tangier), and it played a significant role in trans-Saharan trade routes. Morocco also has a history of dynasties, with cities like Fes and Marrakech serving as important cultural and intellectual centers. The country gained independence from France in 1956 and has since developed into a unique blend of traditional and modern influences."
+              ]
+            },
+            {
+              "tag": "morocco_travel",
+              "patterns": [
+                "How can I plan a trip to Morocco?",
+                "Tell me about traveling to Morocco.",
+                "What are the best places to visit in Morocco?"
+              ],
+              "responses": [
+                "Planning a trip to Morocco is an exciting adventure! To start, you will need a valid passport with at least six months of validity remaining. Most visitors to Morocco do not require a visa for stays of up to 90 days. When it comes to accommodation, you can find a range of options including hotels, riads, and guesthouses. Popular cities to explore include Marrakech, Fes, Casablanca, and Chefchaouen. The Sahara Desert is a must-visit destination, where you can experience camel trekking and spend a night under the stars in a desert camp. Other remarkable places to visit include the Atlas Mountains, Essaouira on the coast, the ancient Roman ruins of Volubilis, and the blue city of Chefchaouen. Morocco is also known for its vibrant markets, known as souks, where you can shop for handicrafts, spices, and traditional goods. Remember to sample delicious Moroccan cuisine, such as tagine, couscous, and mint tea, and immerse yourself in the rich cultural heritage and warm hospitality of the Moroccan people."
+              ]
+            },
+              {
+                "tag": "morocco_transportation",
+                "patterns": [
+                  "What are the transportation options in Morocco?",
+                  "How can I get around in Morocco?"
+                ],
+                "responses": [
+                  "In Morocco, you can travel between cities and towns using various transportation options. These include domestic flights, trains, buses, and shared taxis (known as grand taxis). Within cities, you can use taxis, local buses, or simply explore on foot. It's also common to hire a private driver or join guided tours for more convenience and to explore specific regions or attractions."
+                ]
+              },
+              {
+                "tag": "moroccan_trekking",
+                "patterns": [
+                  "Are there any trekking opportunities in Morocco?",
+                  "Tell me about hiking and trekking in Morocco."
+                ],
+                "responses": [
+                  "Morocco offers fantastic trekking opportunities, especially in the Atlas Mountains. Popular trekking routes include the Toubkal National Park, the High Atlas Mountains, the Mgoun Massif, and the Sirwa Mountains. These routes cater to different difficulty levels and offer breathtaking mountain views, encounters with local Berber communities, and the chance to experience Morocco's natural beauty firsthand."
+                ]
+              },
+              {
+                "tag": "morocco_bazaars",
+                "patterns": [
+                  "What are bazaars in Morocco?",
+                  "Tell me about the traditional markets in Morocco."
+                ],
+                "responses": [
+                  "Bazaars are vibrant marketplaces found in Moroccan cities and towns. They are known for their bustling atmosphere, colorful stalls, and a wide variety of goods on offer. In bazaars, you can find traditional crafts, textiles, spices, leather goods, jewelry, and much more. Exploring the bazaars is an excellent way to immerse yourself in the local culture, interact with friendly vendors, and find unique souvenirs to take back home."
+                ]
+              },
+              {
+                "tag": "morocco_sahara_experience",
+                "patterns": [
+                  "What is it like to experience the Sahara Desert in Morocco?",
+                  "Tell me about visiting the Sahara Desert."
+                ],
+                "responses": [
+                  "Visiting the Sahara Desert in Morocco is an unforgettable experience. You can embark on a desert tour and ride a camel through the golden sand dunes, witness breathtaking sunsets and sunrises, and spend a night under the starry desert sky in a traditional nomadic camp. The serenity and vastness of the desert, coupled with the warm hospitality of the local guides, create a truly magical and unique adventure."
+                ]
+              },
+              {
+                "tag": "morocco_beach_activities",
+                "patterns": [
+                  "What activities can I do at the beaches in Morocco?",
+                  "Tell me about beach activities in Morocco."
+                ],
+                "responses": [
+                  "Morocco's beaches offer a wide range of activities for visitors to enjoy. You can indulge in sunbathing, swimming, and beach volleyball. Many coastal towns also offer water sports such as surfing, windsurfing, kiteboarding, and jet skiing. Some beaches have beach clubs where you can relax in a comfortable setting and enjoy food and drinks. Exploring the nearby coastal towns and enjoying fresh seafood are also popular activities."
+                ]
+              },
+              {
+                "tag": "morocco_wellness_retreats",
+                "patterns": [
+                  "Are there wellness retreats in Morocco?",
+                  "Tell me about wellness and spa experiences in Morocco."
+                ],
+                "responses": [
+                  "Yes, Morocco is home to several wellness retreats and spa experiences. Many resorts and riads offer spa facilities where you can enjoy traditional hammams (steam baths), massages, facials, and other rejuvenating treatments. There are also dedicated wellness retreats that provide holistic healing, yoga classes, meditation sessions, and wellness workshops, allowing you to relax, rejuvenate, and find inner peace in a serene Moroccan setting."
+                ]
+              },
+              {
+                "tag": "morocco_cultural_heritage",
+                "patterns": [
+                  "Tell me about the cultural heritage of Morocco.",
+                  "What are some historical and cultural sites in Morocco?"
+                ],
+                "responses": [
+                  "Morocco boasts a rich cultural heritage and is home to numerous historical and cultural sites. Some notable places to visit include the ancient Roman ruins of Volubilis, the historic medinas of Marrakech and Fes, the Kasbah of Ait Ben Haddou (a UNESCO World Heritage site), the Mausoleum of Mohammed V in Rabat, and the Hassan II Mosque in Casablanca. Exploring these sites allows you to delve into Morocco's fascinating history, architecture, and cultural significance."
+                ]
+              },
+              {
+                "tag": "moroccan_villages",
+                "patterns": [
+                  "Are there any picturesque villages to visit in Morocco?",
+                  "Tell me about charming villages in Morocco."
+                ],
+                "responses": [
+                  "Morocco is dotted with picturesque villages that showcase traditional Moroccan architecture, local craftsmanship, and a slower pace of life. Some charming villages to visit include Chefchaouen, known for its blue-washed buildings, Essaouira with its coastal charm, Imlil nestled in the Atlas Mountains, and Asilah, a coastal town famous for its vibrant art scene and annual cultural festival. These villages provide a glimpse into the authentic Moroccan way of life and are perfect for leisurely exploration."
+                ]
+              },
+              {
+                "tag": "morocco_adventure_activities",
+                "patterns": [
+                  "What adventure activities can I do in Morocco?",
+                  "Tell me about adventurous experiences in Morocco."
+                ],
+                "responses": [
+                  "Morocco offers a wide range of adventure activities for thrill-seekers. You can go hiking or rock climbing in the Atlas Mountains, try sandboarding on the dunes of the Sahara Desert, go quad biking or off-roading in the desert or mountains, and take part in camel treks or horseback riding expeditions. Additionally, Morocco has opportunities for paragliding, hot air ballooning, and even skiing in the winter months in the High Atlas Mountains."
+                ]
+              },
+              {
+                "tag": "moroccan_cultural_events",
+                "patterns": [
+                  "Are there any cultural events or festivals in Morocco?",
+                  "Tell me about the cultural calendar in Morocco."
+                ],
+                "responses": [
+                  "Morocco has a vibrant cultural calendar with various events and festivals throughout the year. Some popular events include the Fes Festival of World Sacred Music, the Gnaoua World Music Festival in Essaouira, the Almond Blossom Festival in Tafraoute, and the Imilchil Marriage Festival. These events showcase traditional music, dance performances, cultural exhibitions, and provide a unique opportunity to witness and participate in Moroccan traditions and celebrations."
+                ]
+              },
+              {
+                "tag": "hotels_in_morocco",
+                "patterns": [
+                  "Tell me about hotels in Morocco.",
+                  "What are some popular hotels in Morocco?",
+                  "Can you recommend hotels in Morocco?"
+                ],
+                "responses": [
+                  "Morocco offers a wide range of hotels to suit various budgets and preferences. From luxurious resorts to boutique riads and budget-friendly accommodations, there are options for every traveler. Some popular hotels in Morocco include:",
+                  "- Royal Mansour Marrakech: A luxurious hotel known for its exquisite architecture, personalized service, and stunning spa facilities.",
+                  "- La Mamounia, Marrakech: A historic hotel with beautiful gardens, elegant rooms, and multiple dining options.",
+                  "- Riad Farnatchi, Marrakech: A boutique riad offering luxurious suites, a peaceful courtyard, and a rooftop terrace with panoramic views.",
+                  "- Kasbah Tamadot, Atlas Mountains: A stunning mountain retreat with luxurious rooms, infinity pools, and breathtaking views.",
+                  "- Sofitel Essaouira Mogador Golf & Spa, Essaouira: A beachfront hotel with modern amenities, a spa, and a golf course.",
+                  "- Riad Yasmine, Marrakech: A charming riad with a rooftop pool, stylish rooms, and a tranquil atmosphere.",
+                  "- Riad Palais Sebban, Marrakech: A beautifully restored riad with traditional Moroccan design, a spa, and a rooftop terrace.",
+                  "- Riad Jaaneman, Marrakech: A boutique riad known for its excellent service, artistic decor, and serene courtyard.",
+                  "- Dar Ahlam, Skoura: A luxurious desert retreat offering a unique blend of comfort, privacy, and Moroccan hospitality.",
+                  "- Riad Adore, Marrakech: A stylish riad with modern amenities, a rooftop terrace, and a central location."
+                ]
+              },{
+                "tag": "morocco_beaches",
+                "patterns": [
+                  "Tell me about the beaches in Morocco.",
+                  "What are some popular beach destinations in Morocco?",
+                  "Can you recommend beaches to visit in Morocco?"
+                ],
+                "responses": [
+                  "Morocco is blessed with beautiful beaches along its coastline. Some popular beach destinations in Morocco include:",
+                  "- Agadir Beach: Located on the southern coast, Agadir Beach offers a long stretch of golden sand, water sports activities, and a vibrant beachfront promenade.",
+                  "- Essaouira Beach: Known for its strong winds, Essaouira Beach is popular among windsurfers and kitesurfers. It also boasts a charming old town and a relaxed atmosphere.",
+                  "- Legzira Beach: Located near Sidi Ifni, Legzira Beach is famous for its stunning rock arches and cliffs. It's a great place for photography and enjoying the natural beauty of the coastline.",
+                  "- Dalia Beach: Situated near Al Hoceima, Dalia Beach features crystal-clear turquoise waters, white sand, and a peaceful ambiance.",
+                  "- Plage Quemada, Mirleft: A hidden gem in southern Morocco, Plage Quemada offers a secluded and untouched beach experience with dramatic cliffs and picturesque views.",
+                  "- Asilah Beach: Found in the coastal town of Asilah, this beach boasts beautiful white sand, clear waters, and a vibrant atmosphere with colorful murals adorning the town walls.",
+                  "- Tifnit Beach: Located near Agadir, Tifnit Beach is a peaceful and secluded beach known for its rugged beauty, fishing villages, and stunning sunsets.",
+                  "- Sidi Kaouki Beach: Situated south of Essaouira, Sidi Kaouki Beach is a popular spot for surfers and beach lovers. It offers vast sandy stretches and a laid-back vibe.",
+                  "- Oualidia Beach: Known as the  Pearl of Morocco,  Oualidia Beach is famous for its lagoon, where visitors can enjoy swimming, kayaking, and birdwatching in a serene setting.",
+                  "- Mohammedia Beach: Close to Casablanca, Mohammedia Beach is a lively coastal destination with golden sand, beach clubs, and various water sports activities."
+                ]
+              },{
+                "tag": "moroccan_food",
+                "patterns": [
+                  "Tell me about Moroccan cuisine.",
+                  "What are some traditional dishes in Morocco?",
+                  "Can you recommend Moroccan food to try?"
+                ],
+                "responses": [
+                  "Moroccan cuisine is known for its rich flavors, aromatic spices, and diverse dishes. Some traditional Moroccan dishes you should try include:",
+                  "- Tagine: A slow-cooked stew typically made with meat, vegetables, and aromatic spices like cumin, saffron, and cinnamon. It's often served with couscous or bread.",
+                  "- Couscous: A staple dish made from semolina grains and typically served with vegetables, meat, and a flavorful broth.",
+                  "- Pastilla: A savory pastry filled with a combination of shredded meat (usually chicken or pigeon), almonds, eggs, and fragrant spices, all wrapped in delicate layers of phyllo pastry.",
+                  "- Harira: A hearty and flavorful soup made with tomatoes, lentils, chickpeas, and a mix of herbs and spices. It's commonly enjoyed during Ramadan.",
+                  "- Mechoui: A succulent slow-roasted whole lamb or sheep, seasoned with fragrant spices and herbs. It's a popular dish served during festive occasions.",
+                  "- Moroccan Mint Tea: A refreshing and aromatic drink made with green tea, fresh mint leaves, and sugar. It's a symbol of Moroccan hospitality and tradition.",
+                  "- Zaalouk: A flavorful eggplant and tomato salad cooked with garlic, spices, and olive oil. It's often served as a side dish or appetizer.",
+                  "- Briouats: Crispy pastries filled with a savory mixture of meat, seafood, or vegetables, and flavored with spices like cumin and coriander.",
+                  "- Moroccan Pastries: Morocco is famous for its delightful assortment of pastries, such as chebakia (sesame cookies), gazelle horns (almond-filled crescent cookies), and makroud (date-filled semolina cookies).",
+                  "- Tajine el Bey: A sweet and fragrant dessert made with layers of pastry, almond paste, and orange blossom water, all topped with a dusting of powdered sugar."
+                ]
+              }
+              
+              
+              
+              
+            
+                        
+          
+          
+          
+          
+          
+          
+          
+          
+                                                                    
+            
+                
+  ]
+}
